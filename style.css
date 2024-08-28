@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ff7b00; /* Orange background */
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar {
+    background-color: #FFF9E3; /* Very light yellow */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #000; /* Black text */
+    font-weight: bold;
+}
+
+.nav-list a:hover {
+    color: #FF8C00; /* Orange hover effect */
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+}
+
+.hero {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.solar-image {
+    width: 50%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+    color: #FFF;
+}
+
+p {
+    font-size: 1.2em;
+    color: #FFF;
+}
+
+.content-section {
+    margin: 40px;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #FF8C00;
+}
+
+@media (max-width: 768px) {
+    .solar-image {
+        width: 80%;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
